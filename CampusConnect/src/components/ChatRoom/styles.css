@@ -1,0 +1,18 @@
+.messages-container {
+    width: 150%;
+    padding: 10px;
+    flex-grow: 1;
+    border: 5px solid var(--color-gray);
+    box-shadow: 0 0 50px 0 var(--color-white);
+    border-radius: var(--border-radius);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    font-size: 16px; /* Increase the font size to 16 pixels */
+}
+.Backrooms a {
+    font-size: 23px;
+}
+.Backrooms a:hover {
+    color: var(--color-blue);
+}
